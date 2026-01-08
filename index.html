@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Timezone Calculator</h1>
+        </header>
+
+        <section class="add-timezone">
+            <input type="text" id="timezone-search" placeholder="Search timezones..." aria-label="Search timezones">
+            <select id="timezone-select" aria-label="Select timezone">
+                <option value="">Select a timezone...</option>
+            </select>
+            <button id="add-btn" class="btn-add">Add Timezone</button>
+        </section>
+
+        <main id="timezone-cards" class="timezone-cards">
+            <!-- Timezone cards will be inserted here -->
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
