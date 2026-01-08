@@ -49,6 +49,15 @@ header h1 {
   flex-direction: column;
 }
 
+#timezone-search {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  border-radius: 0.5rem;
+}
+
 #timezone-select {
   flex: 1;
   min-width: 200px;
