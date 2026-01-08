@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Timezone Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <header>
-            <h1>Timezone Calculator</h1>
-        </header>
+        <main id="timezone-cards" class="timezone-cards">
+            <!-- Timezone cards will be inserted here -->
+        </main>
 
         <section class="add-timezone">
             <input type="text" id="timezone-search" placeholder="Search timezones..." aria-label="Search timezones">
@@ -20,11 +22,9 @@
             <button id="add-btn" class="btn-add">Add Timezone</button>
         </section>
 
-        <main id="timezone-cards" class="timezone-cards">
-            <!-- Timezone cards will be inserted here -->
-        </main>
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
